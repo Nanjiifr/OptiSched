@@ -4,15 +4,15 @@ import affichage
 
 # Recuperation des fichier prof.csv et classe.csv, avec les info necessaires
 # prof(nom,matiere,nbheuremax) / classe(nom,niveau,spe1,spe2,spe3,lv1,lv2)
-with open("Classeur1.csv") as file_name:
+with open("OptiSched/source/Classeur1.csv") as file_name:
     file_read = csv.reader(file_name)
     fichierprof = list(file_read)
 
-with open("Classeur2.csv") as file_name:
+with open("OptiSched/source/Classeur2.csv") as file_name:
     file_read = csv.reader(file_name)
     fichierclasse = list(file_read)
     
-with open("Classeur3.csv") as file_name:
+with open("OptiSched/source/Classeur3.csv") as file_name:
     file_read = csv.reader(file_name)
     fichiersalle = list(file_read)
 

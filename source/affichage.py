@@ -265,7 +265,7 @@ def creerCanvasImage(main):
         edt.create_text((margeX+50+(i*120), margeY-15),text=semaine[i],fill="black",font='tkDefaeultFont 14')
         
     # Affiche la banière du repas
-    repas = PhotoImage(file = "repas.gif")
+    repas = PhotoImage(file = "OptiSched/source/repas.gif")
     edt.create_image(margeX,margeY+202,image=repas,anchor="nw")
     return edt,repas
 
