@@ -1,7 +1,6 @@
 import csv
 import functions
 import affichage
-# import main_affichage
 
 # Recuperation des fichier prof.csv et classe.csv, avec les info necessaires
 # prof(nom,matiere,nbheuremax) / classe(nom,niveau,spe1,spe2,spe3,lv1,lv2)
